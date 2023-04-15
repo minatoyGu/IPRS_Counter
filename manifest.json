@@ -1,6 +1,6 @@
 {
   "manifest_version": 2,
-  "name": "iprsZero",
+  "name": "IPRS Counter",
   "version": "1.0",
   "description": "This is a Chrome extension that can help you guess the iPRS code.",
   "permissions": [
