@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+  "name": "iprsZero",
+  "version": "1.0",
+  "description": "This is a Chrome extension that can help you guess the iPRS code.",
+  "permissions": [
+    "activeTab",
+    "contextMenus"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+  "icons": {
+    "16": "icon16.png",
+    "32": "icon32.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
